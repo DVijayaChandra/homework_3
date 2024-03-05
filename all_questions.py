@@ -329,7 +329,7 @@ def question9():
     answers["(e)"] = ['partitional', 'exclusive', 'complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Partitioning clustering is applicable when assigning letter grades in a class, ensuring that each student is placed in precisely one grade category with no overlap between the categories."
 
     return answers
 
