@@ -293,16 +293,16 @@ def question8():
     answers["(b) Row 4"] = "Cluster-d"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "The diagonal entry appears less distinct, suggesting a lower level of cohesion within the cluster. In contrast, all off-diagonal entries exhibit various colors, signifying different distances from it (closest to B, followed by C, and furthest from A)."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "The diagonal entry appears sharper, indicating a cohesive cluster. Out of the three off-diagonal entries, two share the same color, suggesting that two other clusters (A and C) are closer to it. Despite the off-diagonal entries indicating distances with A being less distinct, it is evident that the cluster is furthest from one other cluster (D)."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "The diagonal entry appears sharper, indicating a cohesive cluster. Out of the three off-diagonal entries, two share the same color, suggesting that two other clusters (B and D) are closer to it. Despite the off-diagonal entries indicating distances with A being less distinct, it is evident that the cluster is furthest from one other cluster (D)."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "The diagonal entry appears less distinct, suggesting a lower level of cohesion within the cluster. In contrast, all off-diagonal entries exhibit various colors, signifying different distances from it (closest to C, followed by B, and furthest from A)."
 
     return answers
 
